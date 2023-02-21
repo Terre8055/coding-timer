@@ -26,24 +26,14 @@ window.onload = () => {
     const greetingEvening = 'Good Evening'
       
     //set conditionals to display variables based on personal desires
-    if (minutes === 59) { 
-      showTime.innerText = restMessage
-    }
-    else if(minutes % 20 === 0){
-      showTime.innerText = waterBreak
-    }else{
-      showTime.innerText = time;
-    }
+    showTime.innerText = minutes === 59 ? restMessage : minutes % 20 === 0 ? waterBreak : time;
+
      
     //set conditionals to display greeting messages based on personal desires
-    if (hours >= 24 && hours < 12){
-      showGreeting.innerText = greetingMorning
-    }
-    else if (hours > 11 && hours < 16){
-      showGreeting.innerText = greetingAfternoon
-    }else{
-      showGreeting.innerText = greetingEvening
-    }   
+    showGreeting.innerText = hours >= 24 && hours < 12 ? greetingMorning :
+                         hours > 11 && hours < 16 ? greetingAfternoon :
+                         greetingEvening;
+
   }
 setInterval(setTime, 1000) 
 }
