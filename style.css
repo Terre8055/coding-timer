@@ -48,6 +48,28 @@ body{
 }
 
 
+@media screen and (max-width:733px),
+    only screen and (-webkit-min-device-pixel-ratio: 2),
+    only screen and (-moz-device-pixel-ratio: 2),
+    only screen and (-o-min-device-pixel-ratio: 2/1),
+    only screen and (min-device-pixel-ratio: 2),
+    only screen and (min-resolution: 192dpi),
+    only screen and (min-resolution: 2dppx)
+    {
+        #container{
+            font-size: 4rem;
+
+        }
+
+        #greet{
+            font-size: 2rem;
+        }
+
+        #alarm{
+            font-size: 2rem;
+        }
+    }
+
 
 
 
