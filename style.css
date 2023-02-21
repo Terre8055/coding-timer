@@ -57,7 +57,7 @@ body{
     only screen and (min-resolution: 2dppx)
     {
         #container{
-            font-size: 4rem;
+            font-size: 2.5rem;
 
         }
 
