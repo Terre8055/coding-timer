@@ -11,7 +11,7 @@ function setTime(){
     
     showTime.innerText = time;
 
-    let message = 'Mike, get up and stretch your legs'
+    let message = 'Get up and stretch your legs'
     let showAlarm = document.getElementById('alarm')
 
     const greetingMorning = 'Good Morning'
