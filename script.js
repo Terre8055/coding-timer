@@ -30,7 +30,7 @@ window.onload = () => {
 
      
     //set conditionals to display greeting messages based on personal desires
-    showGreeting.innerText = hours >= 24 && hours < 12 ? greetingMorning :
+    showGreeting.innerText = hours < 12 ? greetingMorning :
                          hours > 11 && hours < 16 ? greetingAfternoon :
                          greetingEvening;
 
