@@ -1,7 +1,7 @@
 # coding-timer
  Personal timer for periods of coding
- Prompts on 
+ Get prompts on: 
  * Water Breaks every 20 minutes 
  * Quick walkabouts after an hour 
 
- Get here : https://code-timer.netlify.app/
+This site was built using [Netlify](https://code-timer.netlify.app/)
